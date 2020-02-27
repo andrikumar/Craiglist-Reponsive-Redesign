@@ -1,0 +1,292 @@
+/* normal-- medium screens */
+header {
+  font-family: 'Roboto';
+  font-size: 13px;
+  list-style: none;
+  padding: 25px;
+
+}
+
+.navItem-left {
+  float: right;
+}
+.navItem-right {
+  float: left;
+}
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: blue;
+    text-decoration: none;
+  }
+
+.searchSection {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+
+   display: flex;
+  font-family: 'Roboto';
+  color: black;
+  font-size: 15px;
+
+ }
+
+ .categorySearch {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: #ECECEC;
+    font-family: 'Roboto';
+
+
+  }
+
+  ::placeholder {
+    font-size: 15px;
+    color: #B4B4B4;
+    padding: 10px;
+}
+
+  .citySearch {
+    width: 150px;
+    height: 30px;
+
+    border: none;
+    background: #ECECEC;
+    border-radius: 0px 5px 5px 0px;
+  }
+
+.Find {
+   background-color: #ECECEC;
+   border-radius: 5px 0px 0px 5px;
+   font-weight: 500;
+
+   padding-top: 5px;
+   padding-bottom: 7px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.Near {
+   background-color: #ECECEC;
+   padding-top: 5px;
+   padding-bottom: 7px;
+   padding-left: 10px;
+
+  font-weight: 500;
+}
+
+.line {
+  background-color: #ECECEC;
+  padding: 6px;
+  color: #B4B4B4;
+
+}
+
+.searchIcon {
+    color: white;
+    display: flex;
+    background: #B2B2B2;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    font-family: 'Roboto';
+  width: 50px;
+
+}
+
+.categoriesNav {
+   list-style: none;
+  display:flex;
+ justify-content: center;
+  align-items: center;
+
+  margin-top: 25px;
+  font-family: 'Roboto';
+  color: blue;
+  font-size: 14px;
+}
+
+li {
+  padding-right: 10px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background: #f2f2f2;
+
+}
+
+.floatingFooter {
+   list-style: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #989898;
+}
+
+
+/* mobile-- small screens */
+@media only screen and (max-width: 600px) {
+
+
+ .searchSection {
+    flex-direction: column;
+     justify-content: flex-start;
+
+  }
+
+   .nearSection {
+     width: 100%;
+     align-items: flex-start;
+    flex-direction: column;
+     justify-content: flex-start;
+
+  }
+
+  .findSearch {
+    display: block;
+    padding: 10px;
+    margin-left: 60px;
+    width: 100%;
+  }
+
+  .line {
+     background-color: white;
+    padding: 0px;
+    color: white;
+  }
+
+  .Near {
+    border-radius: 5px 0px 0px 5px;
+    padding: 14px;
+    font-size: 16px;
+    margin-left: 30px;
+    padding-bottom: 18px;
+
+
+  }
+
+  .citySearch {
+    height: 51px;
+    width: 65%;
+  }
+
+  .categorySearch {
+    height: 51px;
+    width: 62%;
+    padding-right: 15px;
+     border-radius: 0px 5px 5px 0px;
+  }
+
+  .Find {
+    padding-top: 14px;
+    padding-left: 16px;
+    padding-bottom: 18px;
+    font-size: 16px;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+  }
+
+  header {
+    font-size: 15px;
+  }
+
+
+  .logo {
+    justify-content: flex-start;
+    margin-left: 35px;
+  }
+
+  .searchIcon {
+    margin-top: 25px;
+margin-left: 65%;
+    justify-content: flex-end;
+  }
+
+  .floatingFooter {
+    font-size: 16px;
+  }
+
+  .categoriesNav{
+   font-size: 16px;
+    margin-top: 30px;
+    margin-right: 30px;
+   flex-direction: column;
+   justify-content: flex-start;
+  align-items: flex-start;
+}
+
+}
+
+/*  large screens */
+@media only screen and (min-width: 1200px) {
+
+  header {
+  font-family: 'Roboto';
+  font-size: 15px;
+  list-style: none;
+  padding: 16px;
+
+}
+
+  .line {
+    font-size: 16px;
+  }
+
+ header {
+    font-size: 15px;
+  }
+
+  .searchIcon {
+font-size: 15px;
+align-content: bottom;
+  }
+
+  .searchSection {
+     font-size: 18px;
+  }
+
+  ::placeholder {
+    font-size: 15px;
+  }
+
+  .categorySearch {
+padding-top: 4px;
+    padding-bottom:2px;
+  }
+
+   .citySearch {
+padding-top: 4px;
+    padding-bottom:2px;
+  }
+
+  .line {
+    padding-top: 8px;
+    padding-bottom: 7px;
+  }
+
+
+  .categoriesNav{
+    margin-top: 25px;
+    font-size: 16px;
+  }
+
+  .floatingFooter {
+    font-size: 15px;xs
+  }
+
+}
